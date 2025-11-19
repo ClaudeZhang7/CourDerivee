@@ -1,8 +1,11 @@
 
 # Cours sur les Dérivées
 
+- [Compréhension du graphique](#taux-de-variation)
+- [Dérivée pour les nuls](#dérivées)
 
-## Dérivée pour les nuls 
+<a id="dérivées"></a>
+# Dérivée pour les nuls 
 
 ## Tableau des formules (à apprendre par coeur)
 
@@ -510,4 +513,108 @@ h'(x) = \frac{3}{4} \cdot \frac{1}{(2x-1)^2}
 \[
 \boxed{h'(x) = \dfrac{3}{4(2x-1)^2}}, \quad
 \boxed{I = \mathbb{R} \setminus \left\{\dfrac12\right\}}
+\]
+
+<a id="taux-de-variation"></a>
+# Compréhension du graphique
+
+# Déterminer l’expression de la fonction
+
+**Énoncé :**  
+Déterminer la fonction polynôme du troisième degré \(f\) dont la représentation graphique :
+
+- est **tangente à l’axe des abscisses** en \(x = 3\) ;
+- **passe par l’origine** \(O(0 ; 0)\) ;
+- passe par le point \(I(2 ; 3)\).
+
+---
+
+## 1. Exploiter les informations géométriques
+
+### a) Tangente à l’axe des abscisses en \(x = 3\)
+
+Être tangente à l’axe des abscisses en \(x=3\) signifie :
+
+- le point \((3,0)\) est sur la courbe :  
+  \[
+  f(3) = 0
+  \]
+- et l’axe des abscisses est tangente, donc la courbe « touche » l’axe :  
+  cela correspond à une **racine double en 3**.  
+  Donc \(x=3\) est de multiplicité 2.
+
+On peut donc écrire un facteur \((x-3)^2\) dans le polynôme.
+
+### b) La courbe passe par l’origine
+
+La courbe passe par \((0,0)\), donc :
+\[
+f(0) = 0
+\]
+Cela signifie que \(x = 0\) est aussi une racine.  
+On a donc un facteur \(x\).
+
+---
+
+## 2. Forme factorisée générale
+
+Comme \(f\) est un **polynôme de degré 3** avec :
+
+- une racine simple en \(0\),
+- une racine double en \(3\),
+
+on peut l’écrire sous la forme :
+\[
+f(x) = a \, x (x-3)^2
+\]
+où \(a\) est un réel non nul à déterminer.
+
+---
+
+## 3. Utiliser le point \(I(2 ; 3)\)
+
+On sait que la courbe passe par le point \(I(2 ; 3)\), donc :
+\[
+f(2) = 3
+\]
+
+On remplace \(x\) par 2 dans l’expression trouvée :
+
+\[
+f(2) = a \cdot 2 \cdot (2-3)^2
+     = a \cdot 2 \cdot (-1)^2
+     = 2a
+\]
+
+On impose \(f(2) = 3\) :
+
+\[
+2a = 3 \quad \Rightarrow \quad a = \frac{3}{2}
+\]
+
+---
+
+## 4. Expression finale de \(f\)
+
+On obtient donc :
+\[
+f(x) = \frac{3}{2} \, x (x-3)^2
+\]
+
+On peut aussi développer si on le souhaite :
+
+\[
+f(x) = \frac{3}{2}x^3 - 9x^2 + \frac{27}{2}x
+\]
+
+---
+
+### Réponse
+
+\[
+\boxed{f(x) = \frac{3}{2} \, x (x-3)^2}
+\]
+ou, développée :
+\[
+\boxed{f(x) = \frac{3}{2}x^3 - 9x^2 + \frac{27}{2}x}
 \]
