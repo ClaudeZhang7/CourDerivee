@@ -1,8 +1,8 @@
 
-## Cours sur les Dérivées
+# Cours sur les Dérivées
 
 
-# Dérivée pour les nuls 
+## Dérivée pour les nuls 
 
 ## Tableau des formules (à apprendre par coeur)
 
