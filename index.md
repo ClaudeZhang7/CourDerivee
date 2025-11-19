@@ -1,8 +1,5 @@
 
----
-title: "Cours sur les Dérivées"
-css: styles.css
----
+## Cours sur les Dérivées
 
 
 # Dérivée pour les nuls 
